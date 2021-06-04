@@ -7,7 +7,7 @@
 **Table of Contents**
 
 * [Introduction](#introduction)
-* [Sample Request Header](#sample-request-header)
+* [Function Header](#function-header)
 * [Input Parameters](#input-parameters)
 * [Sample Code](#sample-code)
 
@@ -15,11 +15,11 @@
 The `find_champion` function in Python returns champion suggestions based upon champion data parameters you pass through such as name, role, and origin. 
  
 
-## Sample Request Header
+## Function Header
 
-| Name | Required | Data Type | Description |
-| --------- | -------- | --------- | ----------- |
-| find_champion | True | String | Queries champion suggestions based upon champion data parameters you pass through such as name, role, and origin.|
+| Name | Description |
+| --------- | -------- |
+| find_champion | Queries champion suggestions based upon champion data parameters you pass through such as name, role, and origin.|
 
 
 ## Input Parameters
