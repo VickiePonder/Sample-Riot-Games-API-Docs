@@ -7,21 +7,34 @@
 **Table of Contents**
 
 * [Introduction](#introduction)
-* [Sample Code](#sample-code)
 * [Sample Request Header](#sample-request-header)
 * [Sample Response](#sample-response)
+* [Sample Code](#sample-code)
 
 ## Introduction
-This site provides our developer community secure access to Riot API. 
-
-## Sample Code
 The `find_champion` function in Python returns champion suggestions based upon champion data parameters you pass through such as name, role, and origin. 
+ 
 
 ## Sample Request Header
 
 | Name | Required | Data Type | Description |
 | --------- | -------- | --------- | ----------- |
 | find_champion | True | String | Queries champion suggestions based upon champion data parameters you pass through such as name, role, and origin.|
+
+
+## Sample Response
+
+| Name | Data Type | Description |
+| ---------  | --------  | ----------- | 
+| name       | String    | Name of the champion. |
+| role       | String    | Champion's assigned class. |
+| origin     | String    | The region champion originates from. |
+
+
+## Sample Code
+
+Here's the sample request to the `find_champion` function:
+
 
     def find_champion(name=None, role=None, origin=None):
       champion_suggestions = []
@@ -38,7 +51,6 @@ The `find_champion` function in Python returns champion suggestions based upon c
         champion_suggestions.append(champ)
      return champion_suggestions
 
-## Sample Response
 
 Here's the sample response to the `find_champion` function:
 
@@ -70,11 +82,6 @@ Here's the sample response to the `find_champion` function:
       },
      ]
 
-| Name | Data Type | Description |
-| ---------  | --------  | ----------- | 
-| name       | String    | Name of the champion. |
-| role       | String    | Champion's assigned class. |
-| origin     | String    | The region champion originates from. |
 
 
 
