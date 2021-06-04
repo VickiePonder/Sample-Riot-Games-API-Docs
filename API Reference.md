@@ -24,7 +24,7 @@ The `find_champion` function in Python returns champion suggestions based upon c
 
 ## Input Parameters
 
-| Name | Data Type | Description |
+| Parameter  | Data Type | Description |
 | ---------  | --------  | ----------- | 
 | name       | String    | Name of the champion. |
 | role       | String    | Champion's assigned class. |
